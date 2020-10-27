@@ -1,32 +1,41 @@
-<mxfile host="app.diagrams.net" modified="2020-10-27T14:22:33.698Z" agent="5.0 (Windows)" etag="V1VjyKnO1dPdj6Ya1ij5" version="13.8.4" type="github">
-  <diagram id="mrOTsqda7IKm6iGV-Wj5" name="Page-1">
+<mxfile host="app.diagrams.net" modified="2020-10-27T14:37:31.750Z" agent="5.0 (Windows)" etag="YDs7PfR35UG9vjASA4yX" version="13.8.4" type="github">
+  <diagram id="mrOTsqda7IKm6iGV-Wj5" name="High-level workflow">
     <mxGraphModel dx="742" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Ee-T2DxK372GyuqHqMaR-1" value="&lt;span&gt;Food-order Management Engine &lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="265" y="380" width="190" height="50" as="geometry" />
+          <mxGeometry x="180" y="471" width="430" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Ee-T2DxK372GyuqHqMaR-2" value="Item / Product Manager" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="380" width="160" height="50" as="geometry" />
+          <mxGeometry x="10" y="471" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Ee-T2DxK372GyuqHqMaR-4" value="User Management System" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="265" y="230" width="120" height="40" as="geometry" />
+          <mxGeometry x="180" y="320" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Ee-T2DxK372GyuqHqMaR-5" value="&lt;p&gt;&lt;span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;Mobile and Web interface&lt;/span&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="265" y="170" width="120" height="40" as="geometry" />
+          <mxGeometry x="180" y="261" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Ee-T2DxK372GyuqHqMaR-6" value="Actor - Customer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="310" y="59" width="30" height="60" as="geometry" />
+          <mxGeometry x="225" y="150" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ee-T2DxK372GyuqHqMaR-7" value="Actor - Employee" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="510" y="59" width="30" height="60" as="geometry" />
+          <mxGeometry x="380" y="150" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ee-T2DxK372GyuqHqMaR-8" value="&lt;p&gt;&lt;span&gt;Store/Kiosk Sale&lt;/span&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="380" width="120" height="50" as="geometry" />
+          <mxGeometry x="350" y="261" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Ee-T2DxK372GyuqHqMaR-9" value="&lt;p&gt;&lt;span&gt;Payment agent&lt;/span&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="265" y="300" width="320" height="40" as="geometry" />
+        <mxCell id="Ee-T2DxK372GyuqHqMaR-9" value="&lt;p&gt;&lt;span&gt;Payment Engine&lt;/span&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="391" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ee-T2DxK372GyuqHqMaR-11" value="&lt;div&gt;IoT Devices&lt;/div&gt;&lt;div&gt;(Smart Fridge)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ee-T2DxK372GyuqHqMaR-15" value="&lt;p&gt;&lt;span&gt;IoT Communication Agent&lt;/span&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ee-T2DxK372GyuqHqMaR-18" value="Marketing &amp;amp; Promotion System" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="471" width="160" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
