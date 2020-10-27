@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-27T18:09:23.061Z" agent="5.0 (Windows)" etag="-C21Ci5RNixF1vFtq0tO" version="13.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-27T18:09:38.502Z" agent="5.0 (Windows)" etag="uCVpB6zV2n50VxLyzLqi" version="13.8.4" type="github">
   <diagram id="mrOTsqda7IKm6iGV-Wj5" name="High-level workflow">
     <mxGraphModel dx="960" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -44,7 +44,7 @@
           <mxGeometry x="600" y="710" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="ngMTxoCWcMnQXUnhPLw1-1" value="&lt;p&gt;&lt;span&gt;IoT Cloud Management&lt;/span&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="320" width="120" height="40" as="geometry" />
+          <mxGeometry x="510" y="310" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ngMTxoCWcMnQXUnhPLw1-2" value="Inventory Management" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="521" width="160" height="50" as="geometry" />
