@@ -1,1 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2020-10-27T13:48:58.156Z" agent="5.0 (Windows)" version="13.8.4" etag="nqGUoGnCgAA9rUYH5V8w" type="github"><diagram id="mrOTsqda7IKm6iGV-Wj5">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-10-27T14:19:29.099Z" agent="5.0 (Windows)" etag="BbpPS1MEPrT-LB61UAS2" version="13.8.4" type="github">
+  <diagram id="mrOTsqda7IKm6iGV-Wj5" name="Page-1">
+    <mxGraphModel dx="742" dy="433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ee-T2DxK372GyuqHqMaR-1" value="&lt;span&gt;Food-order Management Engine &lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="430" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ee-T2DxK372GyuqHqMaR-2" value="Item / Product Manager" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="250" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ee-T2DxK372GyuqHqMaR-4" value="User Management System" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ee-T2DxK372GyuqHqMaR-5" value="&lt;p&gt;&lt;span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;Mobile and Web interface&lt;/span&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ee-T2DxK372GyuqHqMaR-6" value="Actor - Customer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="59" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ee-T2DxK372GyuqHqMaR-7" value="Actor - Employee" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="59" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ee-T2DxK372GyuqHqMaR-8" value="&lt;p&gt;&lt;span&gt;Store/Kiosk Sale&lt;/span&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="515" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ee-T2DxK372GyuqHqMaR-9" value="&lt;p&gt;&lt;span&gt;Payment agent&lt;/span&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="360" width="320" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
