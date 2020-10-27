@@ -1,47 +1,53 @@
-<mxfile host="app.diagrams.net" modified="2020-10-27T14:57:59.631Z" agent="5.0 (Windows)" etag="-I6X6XwkW6okW-cBb3vW" version="13.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-27T18:04:33.632Z" agent="5.0 (Windows)" etag="3dbl-LeYvFN2RUVviK8X" version="13.8.4" type="github">
   <diagram id="mrOTsqda7IKm6iGV-Wj5" name="High-level workflow">
-    <mxGraphModel dx="1674" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="960" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Ee-T2DxK372GyuqHqMaR-1" value="&lt;span&gt;Food-order Management Engine &lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="210" y="521" width="430" height="50" as="geometry" />
+        <mxCell id="Ee-T2DxK372GyuqHqMaR-1" value="&lt;span&gt;Food-order Management Engine &lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="521" width="290" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Ee-T2DxK372GyuqHqMaR-2" value="Item / Product Manager" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Ee-T2DxK372GyuqHqMaR-2" value="Item / Product Manager" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="521" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Ee-T2DxK372GyuqHqMaR-4" value="User Management System" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Ee-T2DxK372GyuqHqMaR-4" value="User Management System" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="210" y="370" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Ee-T2DxK372GyuqHqMaR-5" value="&lt;p&gt;&lt;span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;Mobile and Web interface&lt;/span&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Ee-T2DxK372GyuqHqMaR-5" value="&lt;p&gt;&lt;span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;Mobile and Web interface&lt;/span&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="210" y="311" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Ee-T2DxK372GyuqHqMaR-6" value="Actor - Customer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="Ee-T2DxK372GyuqHqMaR-6" value="Actor - Customer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="255" y="200" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ee-T2DxK372GyuqHqMaR-7" value="Actor - Employee" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="Ee-T2DxK372GyuqHqMaR-7" value="Actor - Employee" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="410" y="200" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ee-T2DxK372GyuqHqMaR-8" value="&lt;p&gt;&lt;span&gt;Store/Kiosk Sale&lt;/span&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Ee-T2DxK372GyuqHqMaR-8" value="&lt;p&gt;&lt;span&gt;Store/Kiosk Sale&lt;/span&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="311" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Ee-T2DxK372GyuqHqMaR-9" value="&lt;p&gt;&lt;span&gt;Payment Engine&lt;/span&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Ee-T2DxK372GyuqHqMaR-9" value="&lt;p&gt;&lt;span&gt;Payment Engine&lt;/span&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="210" y="441" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Ee-T2DxK372GyuqHqMaR-11" value="&lt;div&gt;IoT Devices&lt;/div&gt;&lt;div&gt;(Smart Fridge)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Ee-T2DxK372GyuqHqMaR-11" value="&lt;div&gt;IoT Devices&lt;/div&gt;&lt;div&gt;(Smart Fridge)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ee-T2DxK372GyuqHqMaR-15" value="&lt;p&gt;&lt;span&gt;IoT Communication Agent&lt;/span&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Ee-T2DxK372GyuqHqMaR-15" value="&lt;p&gt;&lt;span&gt;IoT Communication Agent&lt;/span&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="370" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Ee-T2DxK372GyuqHqMaR-18" value="Marketing &amp;amp; Promotion System" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="521" width="160" height="50" as="geometry" />
+        <mxCell id="Ee-T2DxK372GyuqHqMaR-18" value="Marketing &amp;amp; Promotion System" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="690" y="521" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Ee-T2DxK372GyuqHqMaR-20" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="Ee-T2DxK372GyuqHqMaR-20" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="50" y="620" width="460" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Ee-T2DxK372GyuqHqMaR-21" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="Ee-T2DxK372GyuqHqMaR-21" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="600" y="620" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ngMTxoCWcMnQXUnhPLw1-1" value="&lt;p&gt;&lt;span&gt;IoT Cloud Management&lt;/span&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="311" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ngMTxoCWcMnQXUnhPLw1-2" value="Inventory Management" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="521" width="160" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
