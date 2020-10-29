@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-29T14:30:41.820Z" agent="5.0 (Windows)" etag="6ZstfWLxhi9eUbpsz8C2" version="13.8.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-10-29T14:35:01.888Z" agent="5.0 (Windows)" etag="IoEpBciPHkqYAKODlJIg" version="13.8.5" type="github" pages="2">
   <diagram id="mrOTsqda7IKm6iGV-Wj5" name="High-level workflow">
     <mxGraphModel dx="957" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -194,8 +194,19 @@
         <mxCell id="LnwRuGKnGkvBRnZnOXoX-14" value="Payment Gateway" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="47JE0T4bK4KaNATsRKXX-1">
           <mxGeometry x="303" y="525" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="LnwRuGKnGkvBRnZnOXoX-17" value="Update Order " style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="47JE0T4bK4KaNATsRKXX-1">
-          <mxGeometry x="436" y="525" width="100" height="50" as="geometry" />
+        <mxCell id="LnwRuGKnGkvBRnZnOXoX-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="47JE0T4bK4KaNATsRKXX-1" source="LnwRuGKnGkvBRnZnOXoX-17" target="LnwRuGKnGkvBRnZnOXoX-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LnwRuGKnGkvBRnZnOXoX-17" value="&lt;div&gt;Payment &lt;br&gt;&lt;/div&gt;&lt;div&gt;Confirmation&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="47JE0T4bK4KaNATsRKXX-1">
+          <mxGeometry x="425" y="525" width="74" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LnwRuGKnGkvBRnZnOXoX-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="47JE0T4bK4KaNATsRKXX-1" source="LnwRuGKnGkvBRnZnOXoX-21" target="LnwRuGKnGkvBRnZnOXoX-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LnwRuGKnGkvBRnZnOXoX-36" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LnwRuGKnGkvBRnZnOXoX-32">
+          <mxGeometry x="-0.292" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="LnwRuGKnGkvBRnZnOXoX-21" value="&lt;div&gt;Item&lt;br&gt;&lt;/div&gt;&lt;div&gt;available?&lt;/div&gt;" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;" vertex="1" parent="47JE0T4bK4KaNATsRKXX-1">
           <mxGeometry x="536" y="351" width="70" height="56" as="geometry" />
@@ -213,7 +224,27 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="LnwRuGKnGkvBRnZnOXoX-27" value="Order Store" style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;" vertex="1" parent="47JE0T4bK4KaNATsRKXX-1">
-          <mxGeometry x="436" y="600" width="100" height="30" as="geometry" />
+          <mxGeometry x="521" y="630" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LnwRuGKnGkvBRnZnOXoX-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="47JE0T4bK4KaNATsRKXX-1" source="LnwRuGKnGkvBRnZnOXoX-28" target="LnwRuGKnGkvBRnZnOXoX-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LnwRuGKnGkvBRnZnOXoX-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="47JE0T4bK4KaNATsRKXX-1" source="LnwRuGKnGkvBRnZnOXoX-28" target="PCNeKcUEW8LCwBm7p20e-0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="641" y="550" />
+              <mxPoint x="641" y="700" />
+              <mxPoint x="46" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LnwRuGKnGkvBRnZnOXoX-38" value="&lt;b&gt;Order Cancellation&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LnwRuGKnGkvBRnZnOXoX-37">
+          <mxGeometry x="-0.1423" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LnwRuGKnGkvBRnZnOXoX-28" value="Update Order" style="whiteSpace=wrap;html=1;dashed=0;" vertex="1" parent="47JE0T4bK4KaNATsRKXX-1">
+          <mxGeometry x="521" y="520" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
