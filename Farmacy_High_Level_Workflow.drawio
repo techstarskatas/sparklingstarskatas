@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-10-27T18:09:38.502Z" agent="5.0 (Windows)" etag="uCVpB6zV2n50VxLyzLqi" version="13.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-29T12:19:58.835Z" agent="5.0 (Windows)" etag="boCPhKydZ_pNZQ5kbUAI" version="13.8.5" type="github" pages="2">
   <diagram id="mrOTsqda7IKm6iGV-Wj5" name="High-level workflow">
-    <mxGraphModel dx="960" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="957" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -23,7 +23,7 @@
           <mxGeometry x="410" y="200" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ee-T2DxK372GyuqHqMaR-8" value="&lt;p&gt;&lt;span&gt;Store/Kiosk Sale&lt;/span&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="380" y="311" width="110" height="40" as="geometry" />
+          <mxGeometry x="370" y="311" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Ee-T2DxK372GyuqHqMaR-9" value="&lt;p&gt;&lt;span&gt;Payment Engine&lt;/span&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="210" y="441" width="180" height="40" as="geometry" />
@@ -43,15 +43,23 @@
         <mxCell id="Ee-T2DxK372GyuqHqMaR-21" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="600" y="710" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ngMTxoCWcMnQXUnhPLw1-1" value="&lt;p&gt;&lt;span&gt;IoT Cloud Management&lt;/span&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ngMTxoCWcMnQXUnhPLw1-1" value="&lt;p&gt;&lt;span&gt;IoT Cloud Management&lt;/span&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="310" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ngMTxoCWcMnQXUnhPLw1-2" value="Inventory Management" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ngMTxoCWcMnQXUnhPLw1-2" value="Inventory Management" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="521" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ngMTxoCWcMnQXUnhPLw1-3" value="Feedback &amp;amp; survey Manager" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ngMTxoCWcMnQXUnhPLw1-3" value="Feedback &amp;amp; survey Manager" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="690" y="610" width="120" height="50" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="mLuGweBeVFACzaW6kUMk" name="Component-Interaction">
+    <mxGraphModel dx="957" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="47JE0T4bK4KaNATsRKXX-0" />
+        <mxCell id="47JE0T4bK4KaNATsRKXX-1" parent="47JE0T4bK4KaNATsRKXX-0" />
       </root>
     </mxGraphModel>
   </diagram>
