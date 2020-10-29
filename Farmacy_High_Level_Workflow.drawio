@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-29T12:19:58.835Z" agent="5.0 (Windows)" etag="boCPhKydZ_pNZQ5kbUAI" version="13.8.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-10-29T12:46:06.072Z" agent="5.0 (Windows)" etag="H1nnypw5v-rpp2GtaTUE" version="13.8.5" type="github" pages="2">
   <diagram id="mrOTsqda7IKm6iGV-Wj5" name="High-level workflow">
     <mxGraphModel dx="957" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -60,6 +60,45 @@
       <root>
         <mxCell id="47JE0T4bK4KaNATsRKXX-0" />
         <mxCell id="47JE0T4bK4KaNATsRKXX-1" parent="47JE0T4bK4KaNATsRKXX-0" />
+        <mxCell id="PCNeKcUEW8LCwBm7p20e-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="47JE0T4bK4KaNATsRKXX-1" source="PCNeKcUEW8LCwBm7p20e-0" target="PCNeKcUEW8LCwBm7p20e-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PCNeKcUEW8LCwBm7p20e-0" value="Actor - Customer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="47JE0T4bK4KaNATsRKXX-1">
+          <mxGeometry x="30" y="195" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PCNeKcUEW8LCwBm7p20e-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="47JE0T4bK4KaNATsRKXX-1" source="PCNeKcUEW8LCwBm7p20e-1" target="PCNeKcUEW8LCwBm7p20e-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PCNeKcUEW8LCwBm7p20e-1" value="&lt;div align=&quot;justify&quot;&gt;Order created in the&lt;/div&gt;&lt;div align=&quot;justify&quot;&gt;Order Management&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;align=left;" vertex="1" parent="47JE0T4bK4KaNATsRKXX-1">
+          <mxGeometry x="380" y="165" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PCNeKcUEW8LCwBm7p20e-3" value="Store Order " style="html=1;dashed=0;whitespace=wrap;shape=partialRectangle;right=0;" vertex="1" parent="47JE0T4bK4KaNATsRKXX-1">
+          <mxGeometry x="385" y="90" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PCNeKcUEW8LCwBm7p20e-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="47JE0T4bK4KaNATsRKXX-1" source="PCNeKcUEW8LCwBm7p20e-7" target="PCNeKcUEW8LCwBm7p20e-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PCNeKcUEW8LCwBm7p20e-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="47JE0T4bK4KaNATsRKXX-1" source="PCNeKcUEW8LCwBm7p20e-7" target="PCNeKcUEW8LCwBm7p20e-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PCNeKcUEW8LCwBm7p20e-7" value="&lt;div&gt;Place an order &lt;br&gt;&lt;/div&gt;&lt;div&gt;through &lt;br&gt;&lt;/div&gt;&lt;div&gt;mobile app&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="47JE0T4bK4KaNATsRKXX-1">
+          <mxGeometry x="225" y="200" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PCNeKcUEW8LCwBm7p20e-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="47JE0T4bK4KaNATsRKXX-1" source="PCNeKcUEW8LCwBm7p20e-32" target="PCNeKcUEW8LCwBm7p20e-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PCNeKcUEW8LCwBm7p20e-32" value="&lt;div&gt;Send the order&lt;/div&gt;&lt;div&gt;request to Farmacy&lt;/div&gt;&lt;div&gt;Kitchen&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="47JE0T4bK4KaNATsRKXX-1">
+          <mxGeometry x="380" y="255" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PCNeKcUEW8LCwBm7p20e-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="47JE0T4bK4KaNATsRKXX-1" source="PCNeKcUEW8LCwBm7p20e-34" target="PCNeKcUEW8LCwBm7p20e-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PCNeKcUEW8LCwBm7p20e-34" value="&lt;div&gt;Customer select&lt;/div&gt;&lt;div&gt;the Food items&lt;/div&gt;&lt;div&gt;on mobile&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="47JE0T4bK4KaNATsRKXX-1">
+          <mxGeometry x="98" y="200" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PCNeKcUEW8LCwBm7p20e-41" value="&lt;div&gt;Farmacy kitchen&lt;/div&gt;&lt;div&gt;check inventory&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whitespace=wrap;" vertex="1" parent="47JE0T4bK4KaNATsRKXX-1">
+          <mxGeometry x="540" y="205" width="100" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
