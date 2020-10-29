@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-29T15:42:06.447Z" agent="5.0 (Windows)" etag="E1kRKRjCn0DCvwfXQFb5" version="13.8.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-10-29T15:44:52.252Z" agent="5.0 (Windows)" etag="oAmSCT4TJQChTjq91QJE" version="13.8.5" type="github" pages="4">
   <diagram id="mrOTsqda7IKm6iGV-Wj5" name="High-level workflow">
     <mxGraphModel dx="988" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -94,10 +94,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="u0RZQZwrraB6Za-QDgg4-6" value="Actor - Customer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="u0RZQZwrraB6Za-QDgg4-1">
-          <mxGeometry x="105" y="510" width="30" height="60" as="geometry" />
+          <mxGeometry x="76" y="510" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="u0RZQZwrraB6Za-QDgg4-7" value="Actor - Employee" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="u0RZQZwrraB6Za-QDgg4-1">
-          <mxGeometry x="105" y="360" width="30" height="60" as="geometry" />
+          <mxGeometry x="75" y="360" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="u0RZQZwrraB6Za-QDgg4-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="u0RZQZwrraB6Za-QDgg4-1" source="u0RZQZwrraB6Za-QDgg4-8" target="u0RZQZwrraB6Za-QDgg4-2">
           <mxGeometry relative="1" as="geometry" />
