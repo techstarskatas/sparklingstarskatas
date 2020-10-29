@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-29T15:11:43.386Z" agent="5.0 (Windows)" etag="uE1gJEUFIJadRY-0Dc-L" version="13.8.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-10-29T15:15:25.308Z" agent="5.0 (Windows)" etag="qZGVMtETvW7VH2f-7xXH" version="13.8.5" type="github" pages="4">
   <diagram id="mrOTsqda7IKm6iGV-Wj5" name="High-level workflow">
     <mxGraphModel dx="1169" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -56,39 +56,48 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Copy of High-level workflow" id="fwR8sLHoG-ybrrqUYg30">
-    <mxGraphModel dx="1169" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="988" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="u0RZQZwrraB6Za-QDgg4-0" />
         <mxCell id="u0RZQZwrraB6Za-QDgg4-1" parent="u0RZQZwrraB6Za-QDgg4-0" />
         <mxCell id="u0RZQZwrraB6Za-QDgg4-2" value="&lt;span&gt;Food-order Management Engine &lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="u0RZQZwrraB6Za-QDgg4-1">
-          <mxGeometry x="210" y="521" width="290" height="50" as="geometry" />
+          <mxGeometry x="355" y="285" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="u0RZQZwrraB6Za-QDgg4-3" value="Item / Product Manager" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="u0RZQZwrraB6Za-QDgg4-1">
           <mxGeometry x="40" y="521" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="u0RZQZwrraB6Za-QDgg4-4" value="User Management System" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="u0RZQZwrraB6Za-QDgg4-1">
-          <mxGeometry x="210" y="370" width="120" height="40" as="geometry" />
+          <mxGeometry x="305" y="170" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="u0RZQZwrraB6Za-QDgg4-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="u0RZQZwrraB6Za-QDgg4-1" source="u0RZQZwrraB6Za-QDgg4-5" target="u0RZQZwrraB6Za-QDgg4-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="u0RZQZwrraB6Za-QDgg4-5" value="&lt;p&gt;&lt;span&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;Mobile and Web interface&lt;/span&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="u0RZQZwrraB6Za-QDgg4-1">
-          <mxGeometry x="210" y="311" width="120" height="40" as="geometry" />
+          <mxGeometry x="150" y="290" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="u0RZQZwrraB6Za-QDgg4-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="u0RZQZwrraB6Za-QDgg4-1" source="u0RZQZwrraB6Za-QDgg4-6" target="u0RZQZwrraB6Za-QDgg4-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="u0RZQZwrraB6Za-QDgg4-6" value="Actor - Customer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="u0RZQZwrraB6Za-QDgg4-1">
-          <mxGeometry x="50" y="160" width="30" height="60" as="geometry" />
+          <mxGeometry x="40" y="280" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="u0RZQZwrraB6Za-QDgg4-7" value="Actor - Employee" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="u0RZQZwrraB6Za-QDgg4-1">
-          <mxGeometry x="40" y="290" width="30" height="60" as="geometry" />
+          <mxGeometry x="160" y="150" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="u0RZQZwrraB6Za-QDgg4-8" value="&lt;p&gt;&lt;span&gt;Store/Kiosk Sale&lt;/span&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="u0RZQZwrraB6Za-QDgg4-1">
-          <mxGeometry x="370" y="311" width="110" height="40" as="geometry" />
+          <mxGeometry x="680" y="150" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="u0RZQZwrraB6Za-QDgg4-9" value="&lt;p&gt;&lt;span&gt;Payment Engine&lt;/span&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="u0RZQZwrraB6Za-QDgg4-1">
-          <mxGeometry x="210" y="441" width="180" height="40" as="geometry" />
+          <mxGeometry x="520" y="380" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="u0RZQZwrraB6Za-QDgg4-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="u0RZQZwrraB6Za-QDgg4-1" source="u0RZQZwrraB6Za-QDgg4-10" target="u0RZQZwrraB6Za-QDgg4-15">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="u0RZQZwrraB6Za-QDgg4-10" value="&lt;div&gt;IoT Devices&lt;/div&gt;&lt;div&gt;(Smart Fridge)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="u0RZQZwrraB6Za-QDgg4-1">
-          <mxGeometry x="10" y="431" width="120" height="60" as="geometry" />
+          <mxGeometry x="10" y="400" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="u0RZQZwrraB6Za-QDgg4-11" value="&lt;p&gt;&lt;span&gt;IoT Communication Agent&lt;/span&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="u0RZQZwrraB6Za-QDgg4-1">
-          <mxGeometry x="510" y="370" width="120" height="40" as="geometry" />
+          <mxGeometry x="295" y="410" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="u0RZQZwrraB6Za-QDgg4-12" value="Marketing &amp;amp; Promotion System" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="u0RZQZwrraB6Za-QDgg4-1">
           <mxGeometry x="690" y="521" width="120" height="50" as="geometry" />
@@ -99,14 +108,20 @@
         <mxCell id="u0RZQZwrraB6Za-QDgg4-14" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="u0RZQZwrraB6Za-QDgg4-1">
           <mxGeometry x="600" y="710" width="200" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="u0RZQZwrraB6Za-QDgg4-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="u0RZQZwrraB6Za-QDgg4-1" source="u0RZQZwrraB6Za-QDgg4-15" target="u0RZQZwrraB6Za-QDgg4-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="u0RZQZwrraB6Za-QDgg4-15" value="&lt;p&gt;&lt;span&gt;IoT Cloud Management&lt;/span&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="u0RZQZwrraB6Za-QDgg4-1">
-          <mxGeometry x="510" y="310" width="120" height="40" as="geometry" />
+          <mxGeometry x="150" y="410" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="u0RZQZwrraB6Za-QDgg4-16" value="Inventory Management" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="u0RZQZwrraB6Za-QDgg4-1">
           <mxGeometry x="520" y="521" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="u0RZQZwrraB6Za-QDgg4-17" value="Feedback &amp;amp; survey Manager" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="u0RZQZwrraB6Za-QDgg4-1">
           <mxGeometry x="690" y="610" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="u0RZQZwrraB6Za-QDgg4-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="u0RZQZwrraB6Za-QDgg4-1" source="u0RZQZwrraB6Za-QDgg4-4" target="u0RZQZwrraB6Za-QDgg4-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
