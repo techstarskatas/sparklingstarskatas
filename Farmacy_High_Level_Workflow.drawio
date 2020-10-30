@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-30T05:09:00.693Z" agent="5.0 (Windows)" etag="W2jRTvp64jMbPJY2P3aO" version="13.8.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-10-30T05:16:01.541Z" agent="5.0 (Windows)" etag="sRf37NFZThNWLpj4uXyY" version="13.8.5" type="github" pages="5">
   <diagram id="mrOTsqda7IKm6iGV-Wj5" name="High-level workflow">
     <mxGraphModel dx="988" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -179,7 +179,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name=" Topology High-level workflow-final" id="cfE5dZ2zDNJX1_HJrWh7">
-    <mxGraphModel dx="1411" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1069" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="iQbVJcOC1ERVP4hp9HYg-0" />
         <mxCell id="iQbVJcOC1ERVP4hp9HYg-1" parent="iQbVJcOC1ERVP4hp9HYg-0" />
@@ -195,7 +195,7 @@
         </mxCell>
         <mxCell id="iQbVJcOC1ERVP4hp9HYg-31" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="iQbVJcOC1ERVP4hp9HYg-1" target="iQbVJcOC1ERVP4hp9HYg-16">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="244.99999999999977" y="280" as="sourcePoint" />
+            <mxPoint x="80" y="280" as="sourcePoint" />
             <mxPoint x="180" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -285,22 +285,28 @@
           <mxGeometry x="330" y="260" as="geometry" />
         </mxCell>
         <mxCell id="iQbVJcOC1ERVP4hp9HYg-28" value="Feedback &amp;amp; survey Manager" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="iQbVJcOC1ERVP4hp9HYg-1">
-          <mxGeometry x="250.99" y="620" width="105" height="50" as="geometry" />
+          <mxGeometry x="250.99" y="620" width="119.01" height="50" as="geometry" />
         </mxCell>
         <mxCell id="iQbVJcOC1ERVP4hp9HYg-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;strokeColor=#FF0000;" edge="1" parent="iQbVJcOC1ERVP4hp9HYg-1" source="iQbVJcOC1ERVP4hp9HYg-11" target="iQbVJcOC1ERVP4hp9HYg-28">
           <mxGeometry x="330" y="260" as="geometry" />
         </mxCell>
+        <mxCell id="iQbVJcOC1ERVP4hp9HYg-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#330000;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="iQbVJcOC1ERVP4hp9HYg-1" source="iQbVJcOC1ERVP4hp9HYg-36" target="iQbVJcOC1ERVP4hp9HYg-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="iQbVJcOC1ERVP4hp9HYg-36" value="Actor - Customer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="iQbVJcOC1ERVP4hp9HYg-1">
-          <mxGeometry x="30" y="500" width="30" height="60" as="geometry" />
+          <mxGeometry x="60" y="490" width="30" height="55" as="geometry" />
         </mxCell>
         <mxCell id="iQbVJcOC1ERVP4hp9HYg-37" value="Actor - Employee" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="iQbVJcOC1ERVP4hp9HYg-1">
-          <mxGeometry x="40" y="250" width="30" height="60" as="geometry" />
+          <mxGeometry x="59" y="250" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iQbVJcOC1ERVP4hp9HYg-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#330000;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="iQbVJcOC1ERVP4hp9HYg-1" source="iQbVJcOC1ERVP4hp9HYg-38" target="iQbVJcOC1ERVP4hp9HYg-39">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iQbVJcOC1ERVP4hp9HYg-38" value="&lt;div&gt;IoT Devices&lt;/div&gt;&lt;div&gt;(Smart Fridge)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="iQbVJcOC1ERVP4hp9HYg-1">
-          <mxGeometry x="5" y="800" width="100" height="60" as="geometry" />
+          <mxGeometry x="35" y="722" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="iQbVJcOC1ERVP4hp9HYg-39" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="iQbVJcOC1ERVP4hp9HYg-1">
-          <mxGeometry x="180" y="240" width="59.01" height="670" as="geometry" />
+        <mxCell id="iQbVJcOC1ERVP4hp9HYg-39" value="API Layer" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="iQbVJcOC1ERVP4hp9HYg-1">
+          <mxGeometry x="180" y="400" width="59.01" height="470" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
