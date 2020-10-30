@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-30T05:16:01.541Z" agent="5.0 (Windows)" etag="sRf37NFZThNWLpj4uXyY" version="13.8.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-10-30T05:48:25.721Z" agent="5.0 (Windows)" etag="sAPBRNDPJ5SN-u8GQFk7" version="13.8.5" type="github" pages="5">
   <diagram id="mrOTsqda7IKm6iGV-Wj5" name="High-level workflow">
     <mxGraphModel dx="988" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -303,7 +303,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="iQbVJcOC1ERVP4hp9HYg-38" value="&lt;div&gt;IoT Devices&lt;/div&gt;&lt;div&gt;(Smart Fridge)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="iQbVJcOC1ERVP4hp9HYg-1">
-          <mxGeometry x="35" y="722" width="100" height="60" as="geometry" />
+          <mxGeometry x="35" y="722" width="100" height="61" as="geometry" />
         </mxCell>
         <mxCell id="iQbVJcOC1ERVP4hp9HYg-39" value="API Layer" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="iQbVJcOC1ERVP4hp9HYg-1">
           <mxGeometry x="180" y="400" width="59.01" height="470" as="geometry" />
